@@ -9,8 +9,8 @@
 *	description = "${6:description}",
 *	produces = {"application/json"},
 *	consumes = {"application/json"},
-*	oa-param${7},
-*	oa-response${8}
+*	oa:param${7},
+*	oa:response${8}
 * )
 ]]></content>
 	<tabTrigger>oa-operation</tabTrigger>

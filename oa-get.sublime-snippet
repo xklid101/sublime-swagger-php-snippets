@@ -8,8 +8,8 @@
 *	description = "${5:description}",
 *	produces = {"application/json"},
 *	consumes = {"application/json"},
-*	oa-param${6},
-*	oa-response${7}
+*	oa:param${6},
+*	oa:response${7}
 * )
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->

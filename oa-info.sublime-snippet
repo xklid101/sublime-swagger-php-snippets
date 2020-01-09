@@ -5,8 +5,8 @@
 *		title = "${2:title}",
 *		description = "${3:description}",
 *		termsOfService = "${4:http://yoursite/terms}",
-*		contact = swg:contact,
-*		license = swg:license
+*		contact = oa:contact,
+*		license = oa:license
 *    )
 ]]></content>
 	<tabTrigger>oa-info</tabTrigger>

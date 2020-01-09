@@ -6,7 +6,7 @@
 *		description = "${3:user's name}",
 *		required = ${4:false},
 *		type = "${5:string}",
-*		oa-schema
+*		oa:schema
 *    ),
 ]]></content>
 	<tabTrigger>oa-param</tabTrigger>

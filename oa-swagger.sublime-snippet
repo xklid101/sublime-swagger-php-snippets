@@ -4,8 +4,8 @@
 *	schemes = "${1:http}",
 *	host = "${2:api.example.com}",
 *	basePath = "${3:/v1}",
-*	swg:info,
-*	swg:externaldoc
+*	oa:info,
+*	oa:externaldoc
 * )
 ]]></content>
 	<tabTrigger>swg</tabTrigger>
