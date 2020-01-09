@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-@SWG\Put(
+@OA\Get(
 *	path = "${1:/users}",
 *	tags = {"${2:users}"},
 *	operationId = "${3:createUser}",
@@ -8,12 +8,12 @@
 *	description = "${5:description}",
 *	produces = {"application/json"},
 *	consumes = {"application/json"},
-*	swg-param${6},
-*	swg-response${7}
+*	oa-param${6},
+*	oa-response${7}
 * )
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>swg-put</tabTrigger>
+	<tabTrigger>oa-get</tabTrigger>
 	<scope>source.php</scope>
-	<description>@SWG\Put</description>
+	<description>@OA\Get</description>
 </snippet>

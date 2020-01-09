@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+@OA\License(name = "${1:MIT}", url = "${2:url}")
+]]></content>
+	<tabTrigger>oa-license</tabTrigger>
+	<scope>source.php</scope>
+	<description>@OA\License</description>
+</snippet>

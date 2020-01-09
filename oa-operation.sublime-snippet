@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-@SWG\Operation(
+@OA\Operation(
 *	method = "${1:get}",
 *	path = "${2:/users}",
 *	tags = "${3:users}",
@@ -9,11 +9,11 @@
 *	description = "${6:description}",
 *	produces = {"application/json"},
 *	consumes = {"application/json"},
-*	swg-param${7},
-*	swg-response${8}
+*	oa-param${7},
+*	oa-response${8}
 * )
 ]]></content>
-	<tabTrigger>swg-operation</tabTrigger>
+	<tabTrigger>oa-operation</tabTrigger>
 	<scope>source.php</scope>
-	<description>@SWG\Operation</description>
+	<description>@OA\Operation</description>
 </snippet>

@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-@SWG\Info(
+@OA\Info(
 *		version = "${1:1.0.0}",
 *		title = "${2:title}",
 *		description = "${3:description}",
@@ -9,7 +9,7 @@
 *		license = swg:license
 *    )
 ]]></content>
-	<tabTrigger>swg-info</tabTrigger>
+	<tabTrigger>oa-info</tabTrigger>
 	<scope>source.php</scope>
-	<description>@SWG\Info</description>
+	<description>@OA\Info</description>
 </snippet>

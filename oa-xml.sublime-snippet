@@ -2,6 +2,6 @@
 	<content><![CDATA[
 Hello, ${1:this} is a ${2:snippet}.
 ]]></content>
-	<tabTrigger>swg-xml</tabTrigger>
+	<tabTrigger>oa-xml</tabTrigger>
 	<scope>source.php</scope>
 </snippet>

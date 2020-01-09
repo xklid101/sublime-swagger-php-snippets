@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+@OA\Response(${3}response = ${1:200}, ${3}description = "${2:success}")
+]]></content>
+	<tabTrigger>oa-response</tabTrigger>
+	<scope>source.php</scope>
+	<description>@OA\Response</description>
+</snippet>

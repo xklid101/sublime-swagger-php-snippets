@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-@SWG\Definition(required={${1:"${2:name}", "${3:photoUrls}"}}, @SWG\Xml(name="${4:Pet}"))
-]]></content>
-	<tabTrigger>swg-def</tabTrigger>
-	<scope>source.php</scope>
-	<description>@SWG\Definition</description>
-</snippet>

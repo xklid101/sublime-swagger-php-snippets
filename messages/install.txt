@@ -9,4 +9,4 @@ This package is compatible with both Sublime
 Text versions 2 & 3.
 
 Documentation, examples & issue filing can be found here:
-https://github.com/lichunqiang/sublime-swagger-php-snippets
+https://github.com/xklid101/sublime-swagger-php-snippets

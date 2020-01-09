@@ -1,11 +1,11 @@
 <snippet>
 	<content><![CDATA[
-@SWG\ExternalDocumentation(
+@OA\ExternalDocumentation(
 *		url = "${1:http://www.example.com}",
 *		description = "${2:this is description}"
 *     )
 ]]></content>
-	<tabTrigger>swg-externaldoc</tabTrigger>
+	<tabTrigger>oa-externaldoc</tabTrigger>
 	<scope>source.php</scope>
-	<description>@SWG\ExternalDocumentation</description>
+	<description>@OA\ExternalDocumentation</description>
 </snippet>
