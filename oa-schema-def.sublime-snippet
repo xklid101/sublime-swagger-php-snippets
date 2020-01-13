@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+@OA\Schema(
+*    schema = "${1:Schemaref}",
+*    type = "${2:object}",
+*    ${3:"oa-property"},
+*    required = {"${4:name}"}
+* )
+]]></content>
+	<tabTrigger>oa-schema-def</tabTrigger>
+	<scope>source.php</scope>
+	<description>@OA\Schema</description>
+</snippet>

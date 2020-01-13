@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-@OA\Property(format = "${1:int64}")
+@OA\Property(property = "${1:name}", type = "${2:string}", format = "${3:}", description = "${4:Description}")
 ]]></content>
 	<tabTrigger>oa-property</tabTrigger>
 	<scope>source.php</scope>

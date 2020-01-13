@@ -1,11 +1,8 @@
 <snippet>
 	<content><![CDATA[
-@OA\ExternalDocumentation(
-*		url = "${1:http://www.example.com}",
-*		description = "${2:this is description}"
-*     )
+@OA\ExternalDocumentation(description = "${1:External documentation}", url = "${2:http://www.example.com}")
 ]]></content>
-	<tabTrigger>oa-externaldoc</tabTrigger>
+	<tabTrigger>oa-externaldocs</tabTrigger>
 	<scope>source.php</scope>
 	<description>@OA\ExternalDocumentation</description>
 </snippet>

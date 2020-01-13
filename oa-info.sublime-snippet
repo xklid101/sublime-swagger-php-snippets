@@ -1,13 +1,13 @@
 <snippet>
 	<content><![CDATA[
 @OA\Info(
-*		version = "${1:1.0.0}",
-*		title = "${2:title}",
-*		description = "${3:description}",
-*		termsOfService = "${4:http://yoursite/terms}",
-*		contact = oa:contact,
-*		license = oa:license
-*    )
+*     title = "${1:Title}",
+*     version = "${2:1.0.0}",
+*     description = "${3:Description}",
+*     termsOfService = "${4:http://yoursite/terms}",
+*     contact = ${5:"oa-contact"},
+*     license = ${6:"oa-license"}
+* )
 ]]></content>
 	<tabTrigger>oa-info</tabTrigger>
 	<scope>source.php</scope>

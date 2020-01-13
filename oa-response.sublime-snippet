@@ -1,6 +1,10 @@
 <snippet>
 	<content><![CDATA[
-@OA\Response(${3}response = ${1:200}, ${3}description = "${2:success}")
+@OA\Response(
+*        response = "${1:200}",
+*        description= "${2:Success}",
+*        ${3:"oa-jsoncontent"}
+*     )
 ]]></content>
 	<tabTrigger>oa-response</tabTrigger>
 	<scope>source.php</scope>

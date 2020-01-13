@@ -1,10 +1,8 @@
 <snippet>
 	<content><![CDATA[
-@OA\Schema(
-*			ref = "${1:#/definitions/User}"
-*	     )
+@OA\Schema(ref = "#/components/schemas/${1:Schemaref}")
 ]]></content>
-	<tabTrigger>oa-schema</tabTrigger>
+	<tabTrigger>oa-schema-ref</tabTrigger>
 	<scope>source.php</scope>
 	<description>@OA\Schema</description>
 </snippet>

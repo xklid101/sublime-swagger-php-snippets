@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-@OA\Contact(name = "${1:person/org name}", url = "${2:url}", email = "${3:email}")
+@OA\Contact(name = "${1:person/org_name}", email = "${2:email}", url = "${3:https://contacturl}")
 ]]></content>
 	<tabTrigger>oa-contact</tabTrigger>
 	<scope>source.php</scope>

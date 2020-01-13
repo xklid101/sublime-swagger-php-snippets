@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+@OA\JsonContent(ref = "#/components/schemas/${1:Schemaref}")
+]]></content>
+	<tabTrigger>oa-jsoncontent</tabTrigger>
+	<scope>source.php</scope>
+	<description>@OA\JsonContent</description>
+</snippet>

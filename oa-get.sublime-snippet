@@ -1,15 +1,12 @@
 <snippet>
 	<content><![CDATA[
 @OA\Get(
-*	path = "${1:/users}",
-*	tags = {"${2:users}"},
-*	operationId = "${3:createUser}",
-*	summary = "${4:User list}",
-*	description = "${5:description}",
-*	produces = {"application/json"},
-*	consumes = {"application/json"},
-*	oa:param${6},
-*	oa:response${7}
+*	path = "${1:/path}",
+*	tags = {"${2:someTag}"},
+*	operationId = "${3:uniqueIdInAllApi}",
+*	summary = "${4:Summary}",
+*	description = "${5:Description}",
+*	${6:"oa-response"}
 * )
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
