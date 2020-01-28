@@ -1,15 +1,35 @@
 <snippet>
 	<content><![CDATA[
 @OA\Post(
-*	path = "${1:/users}",
-*	tags = {"${2:users}"},
-*	operationId = "${3:createUser}",
-*	summary = "${4:User list}",
-*	description = "${5:description}",
-*	produces = {"application/json"},
-*	consumes = {"application/json"},
-*	oa:param${6},
-*	oa:response${7}
+*    path = "/${1:helloworld}",
+*    operationId = "post-${1:helloworld}",
+*    tags = {"${2:helloworld}" },
+*    summary = "${3:Sample helloworld post request}",
+*    description = "${4:Description}",
+*    @OA\RequestBody(
+*        @OA\JsonContent(ref = "#/components/schemas/${5:HelloWorldItem}")
+*    ),
+*    @OA\Parameter(
+*        in = "query",
+*        name = "${6:id}",
+*        description = "${7:HelloWorld sample query param}",
+*        required = ${8:false},
+*        @OA\Schema(
+*            type = "${9:string}"
+*        )
+*    ),
+*    @OA\Response(
+*       response = "201",
+*       ref = "#/components/responses/Ok"
+*    ),
+*    @OA\Response(
+*       response = "401",
+*       ref = "#/components/responses/ErrUnauthorized"
+*    ),
+*    @OA\Response(
+*       response = "default",
+*       ref = "#/components/responses/ErrDefault"
+*    )
 * )
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->

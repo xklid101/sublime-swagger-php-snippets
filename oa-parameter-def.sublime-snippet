@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+@OA\Parameter(
+*     parameter = "${1:Paramdef}",
+*     in = "${2:query}",
+*     name = "${3:paramname}",
+*     description = "${4:Description}",
+*     required = ${5:false},
+*     @OA\Schema(
+*         type = "${6:integer}"
+*     )
+* )
+]]></content>
+	<tabTrigger>oa-param-def</tabTrigger>
+	<scope>source.php</scope>
+	<description>@OA\param</description>
+</snippet>

@@ -1,24 +1,28 @@
 <snippet>
 	<content><![CDATA[
-@OA\Delete(
+@OA\Get(
 *    path = "/${1:helloworld/\{ids\}}",
-*    operationId = "delete-${1:helloworld/\{ids\}}",
+*    operationId = "get-${1:helloworld/\{ids\}}",
 *    tags = {"${2:helloworld}" },
-*    summary = "${3:Sample helloworld delete request}",
+*    summary = "${3:Sample helloworld get list by ids request}",
 *    description = "${4:Description}",
 *    @OA\Parameter(
 *        in = "path",
-*        name = "${6:ids}",
-*        description = "${7:HelloWorld sample path param (path parameter is allways required due to OpenApi spec!)}",
+*        name = "${5:ids}",
+*        description = "Comma delimited list",
 *        required = true,
 *        @OA\Schema(
 *            type = "array",
-*            @OA\Items(type = "${8:integer}")
+*            @OA\Items(type = "${6:integer}")
 *        )
 *    ),
 *    @OA\Response(
-*       response = "200",
-*       ref = "#/components/responses/Ok"
+*        response = "200",
+*        description= "Get list of items",
+*        @OA\JsonContent(
+*            type = "array",
+*            @OA\Items(ref = "#/components/schemas/${7:HelloWorldItem}")
+*        )
 *    ),
 *    @OA\Response(
 *       response = "401",
@@ -35,7 +39,7 @@
 * )
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>oa-delete</tabTrigger>
+	<tabTrigger>oa-get-byids</tabTrigger>
 	<scope>source.php</scope>
-	<description>@OA\Delete</description>
+	<description>@OA\Get</description>
 </snippet>

@@ -1,0 +1,41 @@
+<snippet>
+	<content><![CDATA[
+@OA\Get(
+*    path = "/${1:helloworld}",
+*    operationId = "get-${1:helloworld}",
+*    tags = {"${2:helloworld}" },
+*    summary = "${3:Sample helloworld get list request}",
+*    description = "${4:Description}<br>
+     ""orderby allowed"": ${5:id,name}<br>
+     ""filter allowed"": ${6:datname_1(string),datname_2(string),oid_min(int),oid_max(int)}",
+*    @OA\Response(
+*        response = "200",
+*        description= "Get list of items",
+*        @OA\JsonContent(
+*            type = "array",
+*            @OA\Items(ref = "#/components/schemas/${7:HelloWorldItem}")
+*        )
+*    ),
+*    @OA\Response(
+*       response = "401",
+*       ref = "#/components/responses/ErrUnauthorized"
+*    ),
+*    @OA\Response(
+*       response = "422",
+*       ref = "#/components/responses/ErrParams"
+*    ),
+*    @OA\Response(
+*       response = "default",
+*       ref = "#/components/responses/ErrDefault"
+*    ),
+*    @OA\Parameter(ref = "#/components/parameters/QueryOffset"),
+*    @OA\Parameter(ref = "#/components/parameters/QueryLimit"),
+*    @OA\Parameter(ref = "#/components/parameters/QueryOrderBy"),
+*    @OA\Parameter(ref = "#/components/parameters/QueryFilter")
+* )
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>oa-get-list</tabTrigger>
+	<scope>source.php</scope>
+	<description>@OA\Get</description>
+</snippet>
