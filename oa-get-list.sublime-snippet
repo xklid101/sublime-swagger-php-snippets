@@ -6,8 +6,8 @@
 *    tags = {"${2:helloworld}" },
 *    summary = "${3:Sample helloworld get list request}",
 *    description = "${4:Description}<br>
-     ""orderby allowed"": ${5:id,name}<br>
-     ""filter allowed"": ${6:datname_1(string),datname_2(string),oid_min(int),oid_max(int)}",
+*    ""orderby allowed"": ${5:id,name}<br>
+*    ""filter allowed"": ${6:datname_1(string),datname_2(string),oid_min(int),oid_max(int)}",
 *    @OA\Response(
 *        response = "200",
 *        description= "Get list of items",
